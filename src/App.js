@@ -24,7 +24,6 @@ function App() {
     if (!existInArr) {
       getWeather(value).then(data => {
         const { name, sys, weather, main } = data
-        console.log(data)
         if (data.cod !== '404') {
           const obj = {
             time: date.toLocaleTimeString('default', {hour: '2-digit', minute: '2-digit'}),

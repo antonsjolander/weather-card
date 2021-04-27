@@ -5,6 +5,10 @@ add .env file to root with
 and
 `REACT_APP_API_KEY=<api-key>`
 
-and run 
+install dependecies with 
+
+`yarn`
+
+then run 
 
 `yarn start`
