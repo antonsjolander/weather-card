@@ -1,12 +1,10 @@
 .app {
   text-align: center;
-  height: 100vh;
-  background-color: #31353e;
   color: #fff;
 }
 
 .app__inner {
-  height: 100%;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,10 +14,11 @@
 .card__container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .form {
-  margin-top: 2rem;
+  margin: 2rem 0;
   transition: all 0.5s ease-in-out;
 }
 
