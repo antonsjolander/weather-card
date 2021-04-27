@@ -1,0 +1,51 @@
+.app {
+  text-align: center;
+  height: 100vh;
+  background-color: #31353e;
+  color: #fff;
+}
+
+.app__inner {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form {
+  margin-top: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.form__error {
+  width: calc(100% - 2rem)
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  background: transparent;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+}
+
+button {
+  outline: 0;
+  border: 2px solid #fff;
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+@import './card/card'

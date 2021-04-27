@@ -1,0 +1,43 @@
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #2a99b7;
+    color: #fff;
+    margin: 0.5rem;
+    text-transform: uppercase;
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    visibility: hidden;
+    flex-grow: 1;
+
+    &.animate {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.card__header, 
+.card__footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.card__icon {
+    margin-top: -2rem;
+}
+
+.card__footer {
+    border-top: 1px solid #fff;
+    margin-top: 2rem;
+}
+
+.card__temp {
+    font-size: 3rem;
+    margin-top: -3rem;
+}
+
